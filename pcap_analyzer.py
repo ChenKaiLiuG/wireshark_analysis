@@ -53,4 +53,4 @@ def update_graph(pcap):
         return px.pie(), f"Error loading {pcap}: {str(e)}", "/download"
 
 if __name__ == '__main__':
-    app.run_server(debug=True, host='0.0.0.0', port=8060)
+    app.run(debug=True, host='0.0.0.0', port=8060)
