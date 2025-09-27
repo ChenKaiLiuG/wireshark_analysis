@@ -8,6 +8,8 @@
  - 下載腳本
    ```git clone```
 ## 使用方式
+ - 打開腳本，設定`.pcap`檔案路徑
+   ```PCAP_DIR = "/var/log/pcaps"  # 替換為你的 .pcap 儲存路徑```
  - 執行腳本
    ```python3 pcap_analyzer.py```
  - 本地開啟 `http://localhost:8060` (或用其他設備訪問 `http://本地IP:8060`)
