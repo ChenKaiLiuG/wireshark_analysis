@@ -6,7 +6,7 @@
  - 安裝wireshark依賴庫
    ```pip3 install pyshark dash plotly --break-system-packages```
  - 下載腳本
-   ```git clone```
+   ```git clone https://github.com/ChenKaiLiuG/wireshark_analysis.git```
 ## 使用方式
  - 打開腳本，設定`.pcap`檔案路徑
    ```PCAP_DIR = "/var/log/pcaps"  # 替換為你的 .pcap 儲存路徑```
