@@ -49,6 +49,8 @@ def update_graph(pcap):
             f.write(log)
         return fig, log, "/download/temp_log.txt"
     
+    except PermissionError:
+        return px.pie(), f"Permission denied for {pcap}. Run with 'sudo python3 pcap_analyzer.py' or adjust permissions.", "/download"
     except Exception as e:
         return px.pie(), f"Error loading {pcap}: {str(e)}", "/download"
 
