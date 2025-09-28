@@ -8,6 +8,7 @@
  - 安裝wireshark依賴庫
    ```bash
    pip3 install numpy --break-system-packages
+   pip3 install pandas --break-system-packages
    pip3 install pyshark dash plotly --break-system-packages
    ```
  - 下載腳本
